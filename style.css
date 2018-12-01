@@ -401,3 +401,33 @@ nav *,
 header *{
     color: var(--b3) !important;
 }
+
+.portfolio-item{
+    position: relative;
+    width: 33.33%;
+    margin: 10px;
+}
+
+.portfolio-item > img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio-text *{
+    color: white;
+}
